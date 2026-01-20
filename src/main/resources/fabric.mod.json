@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "siege-stopper-fabric",
+	"version": "${version}",
+	"name": "Siege Stopper [Fabric]",
+	"description": "This is a simple Mod to stop zombie sieges from appearing.",
+	"authors": [
+		"Lays24MC"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/siege-stopper-fabric/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.lays24mc.SiegeStopperFabric"
+		],
+		"client": [
+			"com.lays24mc.SiegeStopperFabricClient"
+		],
+		"fabric-datagen": [
+			"com.lays24mc.SiegeStopperFabricDataGenerator"
+		]
+	},
+	"mixins": [
+		"siege-stopper-fabric.mixins.json",
+		{
+			"config": "siege-stopper-fabric.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

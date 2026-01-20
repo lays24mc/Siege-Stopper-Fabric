@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:villager_spawn_egg": 5,
+      "minecraft:lever": 1,
+      "minecraft:redstone": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 6187,
+      "minecraft:walk_one_cm": 1552,
+      "minecraft:total_world_time": 6230,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 110779,
+      "minecraft:crouch_one_cm": 28,
+      "minecraft:sneak_time": 98,
+      "minecraft:play_time": 6187,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 6187
+    }
+  },
+  "DataVersion": 4671
+}

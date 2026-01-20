@@ -1,0 +1,4 @@
+/give @p minecraft:command_block
+/difficulty hard
+/difficulty
+/kill @e[type=!minecraft:villager, type=!minecraft:player]
