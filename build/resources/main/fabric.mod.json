@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "siege-stopper-fabric",
-	"version": "1.21.11-1.0.0",
+	"version": "26.1-1.0.0",
 	"name": "Siege Stopper [Fabric]",
 	"description": "This is a simple Mod to stop zombie sieges from appearing.",
 	"authors": [
@@ -34,8 +34,8 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21.11",
-		"java": ">=21",
+		"minecraft": "~26.1",
+		"java": ">=25",
 		"fabric-api": "*"
 	}
 }
