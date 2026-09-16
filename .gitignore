@@ -28,3 +28,13 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Fabric/Minecraft run directory ###
+/run/
+
+### Gradle ###
+/build/
+/.gradle/
+
+### IntelliJ IDEA (project files) ###
+/.idea/
